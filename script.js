@@ -109,27 +109,92 @@
 
 // --DrumKit--
 
-// const newSoundBtn = document.getElementById("newSoundBtn");
+const newsoundBtn = document.getElementById("newSoundBtn");
+const allboxes = document.querySelectorAll(".nav");
 
-// let boom.wav = document.getElementById("boom.wav");
-// let keyS = document.getElementById("keyS");
-// let keyD = document.getElementById("keyD");
-// let keyF = document.getElementById("keyF");
-// let keyG = document.getElementById("keyG");
-// let keyH = document.getElementById("keyH");
-// let keyJ = document.getElementById("keyJ");
-// let keyK = document.getElementById("keyK");
-// let keyL = document.getElementById("keyL");
+let keyA = document.getElementById("keyA");
+let keyS = document.getElementById("keyS");
+let keyD = document.getElementById("keyD");
+let keyF = document.getElementById("keyF");
+let keyG = document.getElementById("keyG");
+let keyH = document.getElementById("keyH");
+let keyJ = document.getElementById("keyJ");
+let keyK = document.getElementById("keyK");
+let keyL = document.getElementById("keyL");
 
-// let newSoundBtn = document.querySelector("newSoundBtn");
+let newSoundBtn = document.querySelector("#newSoundBtn");
 
-//    document.addEventListener("keypress", (sound)) => {
-//     console.log(sound);
-//     boom.wav.soundContent=boom.wov.sound;
+document.addEventListener("keypress", (sound) => {
+  console.log(sound);
 
-//    }
+  if (sound.code == "KeyA") {
+    let audio = new Audio("./images/boom.wav");
+    audio.play();
+  } else if (sound.code == "KeyS") {
+    let audio = new Audio("./images/clap.wav");
+    audio.play();
+  } else if (sound.code == "KeyD") {
+    let audio = new Audio("./images/hihat.wav");
+    audio.play();
+  } else if (sound.code == "KeyF") {
+    let audio = new Audio("./images/kick.wav");
+    audio.play();
+  } else if (sound.code == "KeyG") {
+    let audio = new Audio("./images/openhat.wav");
+    audio.play();
+  } else if (sound.code == "KeyH") {
+    let audio = new Audio("./images/ride.wav");
+    audio.play();
+  } else if (sound.code == "KeyJ") {
+    let audio = new Audio("./images/snare.wav");
+    audio.play();
+  } else if (sound.code == "KeyK") {
+    let audio = new Audio("./images/tink.wav");
+    audio.play();
+  } else if (sound.code == "KeyL") {
+    let audio = new Audio("./images/tom.wav");
+    audio.play();
+  }
 
-//    button.addEventListener("click", () => {
+  newSoundBtn.addEventListener("click", () => {
+    let audio = new Audio("./images/boom.wav");
+    audio.play();
+  });
 
-//     if(newSoundBtn =)
-//    })
+  keyA.addEventListener("click", () => {
+    let audio = new Audio("./images/boom.wav");
+    audio.play();
+  });
+  keyS.addEventListener("click", () => {
+    let audio = new Audio("./images/clap.wav");
+    audio.play();
+  });
+  keyD.addEventListener("click", () => {
+    let audio = new Audio("./images/hihat.wav");
+    audio.play();
+  });
+  keyF.addEventListener("click", () => {
+    let audio = new Audio("./images/kick.wav");
+    audio.play();
+  });
+  keyG.addEventListener("click", () => {
+    let audio = new Audio("./images/openhat.wav");
+    audio.play();
+  });
+  keyH.addEventListener("click", () => {
+    let audio = new Audio("./images/ride.wav");
+    audio.play();
+  });
+  keyJ.addEventListener("click", () => {
+    let audio = new Audio("./images/snare.wav");
+    audio.play();
+  });
+  keyK.addEventListener("click", () => {
+    let audio = new Audio("./images/tink.wav");
+    audio.play();
+  });
+  keyL.addEventListener("click", () => {
+    let audio = new Audio("./images/tom.wav");
+    audio.play();
+  });
+});

@@ -73,15 +73,15 @@ main {
 /* --Guess the number- */
 
 /* --DrumKit-- */
-/* #title {
+*/ #title {
   color: rgb(18, 134, 18);
   font-size: 60px;
   text-align: center;
 }
 
-nav a {
+span {
   border: 1px solid rgb(47, 85, 255);
   padding: 10px 40px 80px;
   align-items: center;
   background-color: aqua;
-} */
+}
