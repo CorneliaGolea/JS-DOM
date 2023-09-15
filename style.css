@@ -1,0 +1,87 @@
+/* img {
+  width: 200px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} */
+
+/* --Activity 2-- > */
+/* img {
+  width: 200px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} */
+
+/* <!--Activity 3-- > text {
+  width: 200px;
+}
+
+body {
+  display: flex;
+  text-align: center;
+} */
+
+/* KeyCodeGenerator  
+
+#title {
+  color: black;
+  font-size: 60px;
+  text-align: center;
+}
+
+#heading {
+  color: black;
+  font-size: 60px;
+  text-align: center;
+}
+
+nav a {
+  border: 1px solid greenyellow;
+  padding: 10px 90px 200px;
+  margin: 20px;
+  align-items: center;
+} */
+
+/* --Dice game-- */
+
+/* .box {
+  height: 200px;
+  width: 200px;
+  border: 2px solid black;
+}
+body {
+  display: flex;
+  background-color: brown;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+main {
+  display: flex;
+
+  justify-content: center;
+} */
+
+/* --Guess the number- */
+
+/* --DrumKit-- */
+/* #title {
+  color: rgb(18, 134, 18);
+  font-size: 60px;
+  text-align: center;
+}
+
+nav a {
+  border: 1px solid rgb(47, 85, 255);
+  padding: 10px 40px 80px;
+  align-items: center;
+  background-color: aqua;
+} */
